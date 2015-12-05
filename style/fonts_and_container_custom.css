@@ -1,0 +1,92 @@
+@import url('http://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('http://fonts.googleapis.com/css?family=Kameron');
+@import url('http://fonts.googleapis.com/css?family=Lato:200,300,400');
+@import url('http://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+.container { 
+    width: 99% !important; 
+}
+
+/* Change code font */
+.CodeMirror pre {
+    font-family: 'Source Code Pro', Consolas, monocco, monospace;
+    font-size: 10pt;
+}
+
+/*Dark background for notebook*/
+#notebook-container {
+    background-color: #272822;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    background-color: #66d9ef;
+}
+
+.dynamic-instructions {
+    display: inline-block;
+    padding-top: 4px;
+    color: #66d9ef;
+}
+
+.edit_mode.div.cell.selected {
+    border-color: #66d9ef;
+}
+
+.div.cell.selected {
+    border-color: #66d9ef;
+}
+
+.btn-default {
+    color: #272822;
+    background-color: #66d9ef;
+    border-color: #5f5f5f;
+}
+
+.list_header {
+    background-color: #5f5f5f;
+}
+.list_container>div {
+    border-bottom: 1px solid #5f5f5f;
+}
+
+div#notebook {
+    background-color: #5f5f5f;
+}
+
+div.text_cell_render {  
+    font-family: "Crimson Text";
+    font-size: 12pt;
+    line-height: 145%; /* added for some line spacing of text. */
+}
+
+div.text_cell_render h1,
+div.text_cell_render h2,
+div.text_cell_render h3,
+div.text_cell_render h4,
+div.text_cell_render h5,
+div.text_cell_render h6 {
+    font-family: 'Kameron';
+    font-weight: 300;
+}
+
+div.text_cell_render h1 {
+    font-size: 24pt;
+}
+
+div.text_cell_render h2 {
+    font-size: 18pt;
+}
+
+div.text_cell_render h3 {
+    font-size: 14pt;
+}
+.rendered_html pre,
+.rendered_html code {
+    font-size: xx-small;
+}
+
+.rendered_html ol {
+    list-style:decimal;
+    margin: 1em 2em;
+}
